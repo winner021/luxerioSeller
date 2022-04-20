@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+.header {
+  background-color: #F4F4F4;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between; }
+  .header .header__logo {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 7px;
+    margin: auto 0;
+    margin-left: 2rem; }
+  .header .header__btn {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center; }
+    .header .header__btn .btn__link {
+      font-size: 1.7rem;
+      margin-right: 2rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+.form {
+  background-color: #E3E3E3;
+  max-width: 90rem;
+  margin: 10rem auto;
+  padding-bottom: 3rem; }
+  .form .AddDesc {
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  .form form .form__field {
+    margin-top: 2rem; }
+    .form form .form__field label {
+      font-size: 2rem;
+      margin-top: 3rem;
+      margin-right: 3rem; }
+    .form form .form__field input {
+      margin-top: -2rem;
+      margin-left: 20rem;
+      display: flex; }
+    .form form .form__field select {
+      margin-left: 20rem;
+      display: flex;
+      margin-top: -2rem; }
+  .form form button {
+    border: 2px solid white;
+    padding: 1.2rem 2.4rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 3rem; }

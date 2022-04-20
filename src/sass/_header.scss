@@ -1,0 +1,30 @@
+@import"./general";
+
+.header{
+   background-color: $Neutral300;
+   height: 10vh;
+   display: flex;
+   justify-content: space-between;
+
+   .header__logo{
+      font-size: 4rem; 
+      font-weight: 600;
+      letter-spacing: 7px;
+      margin: auto 0;
+      margin-left: 2rem;
+   }
+   .header__btn{
+      display: flex;
+      margin-right: 2rem; 
+      align-items: center;
+     .btn__link {
+        font-size: 1.7rem;
+        margin-right: 2rem;
+        
+        &:link{
+        
+        }
+    }
+
+   }
+}
